@@ -5,7 +5,8 @@ let package = Package(
     name: "swift-markdown-xcframework",
     platforms: [.iOS(.v11), .macOS(.v10_13), .tvOS(.v11), .watchOS(.v4)],
     products: [
-      .library(name: "Markdown", targets: ["Markdown"]),
+        .library(name: "Markdown", targets: ["Markdown"]),
+        .library(name: "CAtomic", targets: ["CAtomic"]),
     ],
     dependencies: [],
     targets: [
