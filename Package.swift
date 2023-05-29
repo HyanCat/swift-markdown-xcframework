@@ -11,7 +11,7 @@ var package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "Markdown", url: "https://github.com/HyanCat/swift-markdown/suites/13211155344/artifacts/719554546")
+        .binaryTarget(name: "Markdown", url: "https://github.com/HyanCat/swift-markdown/suites/13211155344/artifacts/719554546", checksum: "7825d8d9e3467417f4979a72586458ed11b12ebe7d40547d549a3a674bfc0e80")
     ]
   ]
 )
