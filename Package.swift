@@ -9,6 +9,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "Markdown", url: "https://pico.oss-accelerate.aliyuncs.com/upic/swift-markdown-xcframework.zip", checksum: "b339e2bea6491ad2f2d2b12f569ba716aeaa951e873c1301c330ee9a7b355eff")
+        .binaryTarget(name: "Markdown", url: "https://pico.oss-accelerate.aliyuncs.com/upic/Markdown.xcframework.zip", checksum: "83f3e65d35fc13e2962a4b6eab4015bd338f512380f8b632a91cb80ec054a9d4")
     ]
 )
