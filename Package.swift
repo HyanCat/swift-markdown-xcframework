@@ -1,3 +1,6 @@
+// swift-tools-version:5.7
+import PackageDescription
+
 var package = Package(
     name: "swift-markdown-xcframework",
     products: [
@@ -9,5 +12,5 @@ var package = Package(
     targets: [
         .binaryTarget(name: "Markdown", url: "https://github.com/HyanCat/swift-markdown/suites/13211155344/artifacts/719554546")
     ]
-	]
+  ]
 )
